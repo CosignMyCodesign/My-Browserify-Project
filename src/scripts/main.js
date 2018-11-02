@@ -3,4 +3,6 @@
     Name: main.js
     Purpose: Entry point of our application
 */
-import renderContact from ("./contactList.js")
+import renderContact from "./contactList.js"
+renderContact()
+
