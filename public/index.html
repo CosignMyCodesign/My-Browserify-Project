@@ -1,16 +1,56 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Browserify Boilerplate</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Browserify Boilerplate</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-    <article class="output">
+  <section id="mySection">
+    <fieldset class="setField">
+      <div>
 
-    </article>
+        <div>
+          <label class="nameLabel">Name:</label>
+          <input type="text" class="firstNameInput" placeholder="First">
+          <input type="text" class="lastNameInput" placeholder="Last">
+        </div>
 
-    <script src="hellogoodbye.js"></script>
+        <div>
+          <label class="addressLabel">Address:</label>
+          <input type="text" class="streetAddress" placeholder="123 Sesame Street">
+          <input type="text" class="cityInput" placeholder="City">
+          <input type="text" class="stateInput" placeholder="State">
+        </div>
+
+        <div>
+          <label class="phoneNumber">Phone Number:</label>
+          <input type="text" class="phoneInput" placeholder="###-###-####">
+        </div>
+
+        <div>
+          <input type="submit" value="send">
+        </div>
+
+      </div>
+    </fieldset>
+
+  </section>
+
+
+  <section class="contactList">
+
+  </section>
+
+
+  <script src="/src/scripts/contact.js"></script>
+  <script src="/src/scripts/contactList.js"></script>
+  <script src="/src/scripts/contactCollection.js"></script>
+  <!-- <script src="bundle.js"></script> -->
 </body>
+
 </html>
